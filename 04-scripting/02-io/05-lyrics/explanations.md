@@ -4,6 +4,8 @@ Write a script that looks up the lyrics of a song.
 
 ```bash
 $ python lyrics.py "rolling stones" "sympathy for the devil"
+```
+
 Please allow me to introduce myself
 I'm a man of wealth and taste
 I've been around for a long, long year
@@ -74,7 +76,6 @@ Oh yeah
 What's my name?
 Tell me baby, what's my name?
 Tell me sweetie, what's my name?
-```
 
 ## Approach
 

@@ -1,6 +1,5 @@
 def is_prime(n):
-    for k in range(2, n):
-        if n % k == 0:
+    for i in range(2, n):
+        if n % i == 0:
             return False
-
     return n > 1

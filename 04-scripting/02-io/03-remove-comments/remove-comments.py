@@ -4,7 +4,7 @@ import re
 def remove_comments(filename):
     with open(filename, 'r') as file:
         contents = file.read()
-
+    
     contents = re.sub('#.*$', '', contents, flags=re.MULTILINE)
 
     with open(filename, 'w') as file:
